@@ -22,7 +22,6 @@ h1 {
 }
 figure {
   float: left;
-
   border: 0.2em solid rgb(85, 197, 217);
 }
 
@@ -44,6 +43,18 @@ section p {
   margin-right: auto;
 }
 
+h4 {
+  text-align: center;
+  font-size: 1.3rem;
+  color: rgb(96, 95, 95);
+}
+
+li {
+  padding: 0.2rem;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
 footer {
   background-color: rgb(216, 216, 216);
   clear: both;
@@ -54,11 +65,12 @@ footer {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  font-family: bold;
 }
 
 nav p,
 footer p {
-  padding: 1rem;
+  padding: 1.5rem;
   bottom: 0.5rem solid black;
   text-decoration: black underline;
 }
