@@ -7,6 +7,58 @@ html {
 }
 
 body {
-  margin: 0;
+  background-color: rgb(193, 234, 247);
+  margin: auto;
   min-height: 100%;
+}
+
+h1 {
+  margin: auto;
+  font-size: 2rem;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  color: rgb(60, 54, 54);
+}
+figure {
+  float: left;
+
+  border: 0.2em solid rgb(85, 197, 217);
+}
+
+header {
+  text-align: center;
+  color: rgb(228, 243, 244);
+}
+
+img {
+  height: 10rem;
+}
+nav {
+  background-color: rgb(85, 197, 217);
+}
+
+section p {
+  background-color: rgb(193, 234, 247);
+  flex-wrap: wrap;
+  margin-right: auto;
+}
+
+footer {
+  background-color: rgb(216, 216, 216);
+  clear: both;
+}
+
+nav,
+footer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav p,
+footer p {
+  padding: 1rem;
+  bottom: 0.5rem solid black;
+  text-decoration: black underline;
 }
